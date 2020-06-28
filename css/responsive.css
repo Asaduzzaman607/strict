@@ -1,0 +1,230 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header-section .header-text h1 {
+    font-size: 28px;
+  }
+  .header-section .header-text p {
+    padding: 0px 20px;
+    font-size: 16px;
+  }
+  .header-section .header-text a.call-action {
+    font-size: 16px;
+    padding: 15px 20px;
+    margin: 20px 0px 0px;
+  }
+  .header-section .header-text .call-to-action {
+    display: none;
+  }
+  .header-section,
+  .about-area .about-area-inner,
+  .about-area .about-design-area,
+  .portfolio-area .portfolio-text,
+  .contact .contact-area .contact-text {
+    padding: 60px 0px;
+  }
+  h2 {
+    font-size: 22px;
+
+  }
+  .about-area .about-area-inner .about-text p {
+    font-size: 14px;
+    padding: 0;
+    letter-spacing: 0px;
+  }
+  .about-area .about-design-area .about-design p {
+    font-size: 16px;
+    padding: 0;
+
+}
+  .about-area .about-design-area .about-design h3 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .portfolio-area {
+    padding-bottom: 30px;
+  }
+  .contact {
+    padding-bottom:30px;
+  }
+  .contact-area form label {
+    margin-top: 0px;
+    font-size: 13px;
+  }
+  .contact-area form textarea {
+    height: 160px;
+  }
+  .contact-area form input[type="submit"] {
+    font-size: 14px;
+    padding: 10px 30px;
+  }
+  .footer-area {
+
+    text-align: center;
+  }
+  .footer-area .footer-social {
+    text-align: center;
+  }
+  .footer-area .footer-social a {
+    margin-top:0px;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .header-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .header-section .header-text h1 {
+    font-size: 28px;
+  }
+  .header-section .header-text p {
+    padding: 0px 20px;
+    font-size: 15px;
+  }
+  .header-section .header-text a.call-action {
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 40px 0px 0px;
+  }
+  .header-section .header-text .call-to-action {
+    display: none;
+  }
+  .about-area .about-area-inner,
+  .about-area .about-design-area,
+  .portfolio-area .portfolio-text,
+  .contact .contact-area .contact-text {
+    padding: 30px 0px;
+  }
+  h2 {
+    font-size: 22px;
+
+  }
+  .about-area .about-area-inner .about-text p {
+    font-size: 14px;
+    padding: 0;
+    letter-spacing: 0px;
+  }
+  .about-area .about-design-area .about-design h3 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .portfolio-area {
+    padding-bottom: 30px;
+  }
+  .contact {
+    padding-bottom:30px;
+  }
+  .contact-area form label {
+    margin-top: 0px;
+    font-size: 13px;
+  }
+  .contact-area form textarea {
+    height: 160px;
+  }
+  .contact-area form input[type="text"], .contact-area form input[type="email"], .contact-area form textarea {
+    padding: 10px;
+  }
+  .contact-area form input[type="submit"] {
+    font-size: 14px;
+    padding: 10px 30px;
+  }
+  .footer-area {
+
+    text-align: center;
+  }
+  .footer-area .footer-social {
+    text-align: center;
+  }
+  .footer-area .footer-social a {
+    margin-top:0px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .header-section .header-text h1 {
+    font-size: 28px;
+  }
+  hr {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+  }
+  .header-section .header-text p {
+    padding: 0px 20px;
+    font-size: 14px;
+  }
+  .header-section .header-text a.call-action {
+    font-size: 14px;
+    padding: 8px 15px;
+    margin: 4px 0px;
+  }
+  .header-section .header-text .call-to-action {
+    display: none;
+  }
+  .about-area .about-area-inner,
+  .about-area .about-design-area,
+  .portfolio-area .portfolio-text,
+  .contact .contact-area .contact-text {
+    padding: 30px 0px;
+  }
+  h2 {
+    font-size: 22px;
+
+  }
+  .about-area .about-area-inner .about-text p {
+    font-size: 14px;
+    padding: 0;
+    letter-spacing: 0px;
+  }
+  .about-area .about-design-area .about-design h3 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .portfolio-area {
+    padding-bottom: 30px;
+  }
+  .contact {
+    padding-bottom:30px;
+  }
+  .contact-area form label {
+    margin-top: 0px;
+    font-size: 13px;
+  }
+  .contact-area form input[type="text"], .contact-area form input[type="email"], .contact-area form textarea {
+    padding: 10px;
+  }
+  .contact-area form textarea {
+    height: 160px;
+  }
+  .contact-area form input[type="submit"] {
+    font-size: 14px;
+    padding: 10px 30px;
+  }
+  .footer-area {
+
+    text-align: center;
+  }
+  .footer-area .footer-social {
+    text-align: center;
+  }
+  .footer-area .footer-social a {
+    margin-top:0px;
+  }
+}
